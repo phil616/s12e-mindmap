@@ -170,6 +170,14 @@ module.exports = function(grunt) {
 			    }, {
                     src: 'index_prod.html',
                     dest: 'dist/index.html'
+                }, {
+                    expand: true,
+                    src: ['bower_components/**'],
+                    dest: 'dist'
+                }, {
+                    expand: true,
+                    src: ['node_modules/kityminder-core/**'],
+                    dest: 'dist'
                 }]
 		    }
 	    },
