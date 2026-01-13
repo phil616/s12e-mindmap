@@ -167,8 +167,10 @@ module.exports = function(grunt) {
 				    cwd: 'ui',
 					src: 'images/*',
 				    dest: 'dist'
-
-			    }]
+			    }, {
+                    src: 'index_prod.html',
+                    dest: 'dist/index.html'
+                }]
 		    }
 	    },
 
