@@ -4,11 +4,11 @@
   "description": "A powerful mind map editor",
   "main": "kityminder.editor.js",
   "scripts": {
-    "init": "npm install --legacy-peer-deps && node_modules/.bin/bower install",
+    "init": "npm install --legacy-peer-deps && bower install",
     "build": "grunt build",
     "dev": "grunt dev",
     "watch": "wr --exec \"lessc --source-map less/editor.less dist/kityminder.editor.css && grunt build\" less ui",
-    "postinstall": "node_modules/.bin/bower install"
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
