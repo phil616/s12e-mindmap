@@ -77,7 +77,7 @@ angular.module('kityminderDemo', ['kityminderEditor'])
 
 数据格式的具体信息，可参考 [kityminder-core-wiki 的中的说明](https://github.com/fex-team/kityminder-core/wiki)。
 
-## 联系我们
+## 联系原作者
 问题和建议反馈：
 
 [Github issues](https://github.com/fex-team/kityminder-editor/issues)
@@ -85,3 +85,7 @@ angular.module('kityminderDemo', ['kityminderEditor'])
 邮件组：kity@baidu.com
 
 QQ 讨论群：475962105
+
+## 联系我们
+
+[Github issues](https://github.com/phil616/s12e-mindmap/issues)
