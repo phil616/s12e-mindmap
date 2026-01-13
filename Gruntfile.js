@@ -93,8 +93,9 @@ module.exports = function(grunt) {
 		                '.tmp/scripts/templates.annotated.js',
 		                '.tmp/scripts/service/*.js',
 		                '.tmp/scripts/filter/*.js',
-                        '.tmp/scripts/dialog/**/*.js',
-		                '.tmp/scripts/directive/**/*.js'
+		                '.tmp/scripts/dialog/**/*.js',
+		                '.tmp/scripts/directive/**/*.js',
+                        '.tmp/scripts/overrides/*.js'
 	                ]
                 }
             }
