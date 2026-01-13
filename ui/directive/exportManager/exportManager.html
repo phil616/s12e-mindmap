@@ -1,0 +1,13 @@
+<div class="export-manager dropdown" dropdown>
+    <button class="btn btn-link dropdown-toggle" dropdown-toggle style="color: #333; text-decoration: none; padding: 6px 15px; border: 0; border-radius: 0; height: 32px; font-size: 14px;">
+        导入/导出 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu pull-right" role="menu" style="border-radius: 0; margin-top: 0; border: 1px solid #ccc; box-shadow: none;">
+        <li><a href ng-click="importJson()" style="padding: 5px 15px;">导入 JSON / 文本</a></li>
+        <li class="divider" style="margin: 5px 0;"></li>
+        <li><a href ng-click="exportJson()" style="padding: 5px 15px;">导出 JSON</a></li>
+        <li><a href ng-click="exportPng()" style="padding: 5px 15px;">导出 PNG</a></li>
+        <li><a href ng-click="exportSvg()" style="padding: 5px 15px;">导出 SVG</a></li>
+    </ul>
+    <input type="file" class="file-input" style="display:none" onchange="angular.element(this).scope().handleImport(this.files)">
+</div>

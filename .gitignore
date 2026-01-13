@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# Build Output
+dist/
+.tmp/
+ui/templates.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Uploads
+upload/

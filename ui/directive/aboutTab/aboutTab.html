@@ -1,0 +1,38 @@
+<div class="about-tab" style="padding: 15px;">
+    <button class="btn btn-primary" ng-click="openAbout()" style="padding: 6px 20px;">
+        <span class="glyphicon glyphicon-info-sign" style="margin-right: 5px;"></span>
+        关于项目
+    </button>
+
+    <script type="text/ng-template" id="about-dialog.html">
+        <div class="modal-header">
+            <h3 class="modal-title">关于 DreamReflex MindMap</h3>
+        </div>
+        <div class="modal-body">
+            <div style="font-weight: bold; font-size: 16px; margin-bottom: 10px;">DreamReflex MindMap (云梦镜像思维导图)</div>
+            <p style="color: #666; line-height: 1.6;">
+                这是一个基于 KityMinder Editor 开发的强大、简洁的在线思维导图编辑工具。
+                <br>该项目是内部项目，用于DreamReflex内部使用，但也是s12e的社区项目，欢迎所有人使用和贡献。
+            </p>
+            <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #eee;">
+                <p>
+                    <a href="https://github.com/dreamreflex/mindmap" target="_blank" style="color: #428bca; text-decoration: none; margin-right: 15px;">
+                        <span class="glyphicon glyphicon-link"></span> 访问项目 GitHub 仓库
+                    </a>
+                </p>
+                 <p>
+                    <a href="https://github.com/fex-team/kityminder-editor" target="_blank" style="color: #428bca; text-decoration: none; margin-right: 15px;">
+                        <span class="glyphicon glyphicon-link"></span> 访问原作者 GitHub 仓库
+                    </a>
+                </p>
+                <p style="color: #999; font-size: 12px; margin-bottom: 0;">
+                    Copyright &copy; 2026 DreamReflex. All Rights Reserved.
+                    <br>Licensed under GPL-2.0
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" ng-click="close()">关闭</button>
+        </div>
+    </script>
+</div>
